@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Our Services - Prathamesh Designs{% endblock title %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1 class="display-4 text-center mb-4">Our Services</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow">
+                <img src= "/static/ui-ux-design.jpg" alt="UI/UX Design" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text">Craft visually stunning user interfaces and enhance user experiences.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow">
+                <img src="/static/web-development.jpg" alt="Web Development" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">Build responsive and dynamic websites using cutting-edge technologies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow">
+                <img src="/static/app-design.jpg" alt="App Design" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">App Design</h5>
+                    <p class="card-text">Design intuitive and elegant mobile applications for various platforms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
